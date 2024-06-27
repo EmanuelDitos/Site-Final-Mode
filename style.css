@@ -89,7 +89,7 @@ a {
 .icon {
   height: 50px;
   width: 50px;
-  background: var(--set-orangel);
+  background: var(--set-orange);
   color: var(--white);
   border-radius: 50%;
   padding: 10px;
