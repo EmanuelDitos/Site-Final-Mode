@@ -4,9 +4,26 @@
   box-sizing: border-box;
 }
 
+:root {
+  --white: #fff;
+  --bg-title: #040404;
+  --bg-card: #ccc;
+  --set-orange: #f58d0f;
+  --box-shadow: #bbb;
+}
+
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.title {
+  padding: 32px;
+  background: var(--bg-title);
+}
+
+.title h1 {
+  color: var(--white);
 }
 
 a:hover {
@@ -21,8 +38,8 @@ button {
   padding: 16px;
   white-space: nowrap;
   border: none;
-  background: #ccc;
-  box-shadow: 0 6px 5px #bbb;
+  background: var(--bg-card);
+  box-shadow: 0 6px 5px var(--box-shadow);
   display: flex;
   align-items: center;
   gap: 8px;
@@ -30,17 +47,67 @@ button {
 
 button:hover {
   transform: scale(0.98);
-  box-shadow: 0 3px 5px #bbb;
+  box-shadow: 0 3px 5px var(--box-shadow);
   cursor: pointer;
 }
 
-.title {
-  padding: 32px;
-  background: #040404;
+header {
+  padding: 12px;
+  background-color: var(--white);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  gap: 250px;
 }
 
-.title h1 {
-  color: #fff;
+.header-logo {
+  display: flex;
+  margin-left: 20px;
+}
+
+.header-logo img {
+  width: 200px; /* ajustar tamanho da imagem */
+}
+
+/* Estilos para a barra de pesquisa */
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box input[type="text"] {
+  width: 400px;
+  height: 45px;
+  padding: 10px;
+  border: 3px solid var(--bg-card);
+  /* border-radius: 8px; */
+  font-size: 16px;
+  background-color: var(--bg-card);
+  color: #333;
+  box-sizing: border-box;
+}
+
+.search-box input[type="text"]::placeholder {
+  color: #999;
+}
+
+.search-box input[type="text"]:focus {
+  border-color: var(--set-orange);
+  outline: none;
+}
+
+/* Estilos para o ícone de lupa */
+.search-box ion-icon {
+  display: flex;
+  color: #999;
+  width: 25px;
+  height: 25px;
+}
+
+.icon-wrap {
+  display: flex;
+  margin-right: 5px;
 }
 
 .card-content {
@@ -55,6 +122,7 @@ button:hover {
   gap: 16px;
   margin-bottom: 22px;
   border-radius: 4px;
+  justify-content: space-around;
 }
 
 .single-card h2 {

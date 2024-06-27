@@ -8,9 +8,26 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header class="title">
-      <h1>Opções de Suporte</h1>
+    <header>
+      <div class="header-logo">
+        <a href="../../index.html">
+          <img class="header-img" src="../../images/logo.png" />
+        </a>
+      </div>
+      <div class="search-box">
+        <div class="icon-wrap">
+          <ion-icon name="search-outline"></ion-icon>
+        </div>
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Digite sua dúvida Aqui!"
+        />
+      </div>
     </header>
+    <div class="title">
+      <h1>Opções de Suporte</h1>
+    </div>
     <main>
       <div class="card-content">
         <div class="single-card">
@@ -83,7 +100,12 @@
           <div class="card-button">
             <button>
               <ion-icon name="logo-youtube"></ion-icon>
-              <a href="#">Assistir outros vídeos</a>
+              <a
+                target="_blank"
+                norel
+                href="https://www.youtube.com/@SetSistemasOfc"
+                >Assistir outros vídeos</a
+              >
             </button>
           </div>
         </div>
@@ -92,17 +114,18 @@
           <div class="card-text">
             <h2>Treinamento</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Exercitationem laboriosam sit nesciunt libero quae, necessitatibus
-              nostrum numquam ipsa, amet voluptas porro ullam, eos optio velit
-              labore quod quos quis! Magnam.
+              Para marcar um treinamento de algum sistema de Set, entre em
+              contato com a nossa equipe pelo nosso WhatsApp.
             </p>
           </div>
 
           <div class="card-button">
             <button>
               <ion-icon name="bookmark-outline"></ion-icon>
-              <a href="#">Treinamento ao vivo</a>
+              <a
+                href="https://api.whatsapp.com/send/?phone=44998695005&text=Gostaria+de+agendar+um+treinamento&type=phone_number&app_absent=0"
+                >Treinamento ao vivo</a
+              >
             </button>
           </div>
         </div>
