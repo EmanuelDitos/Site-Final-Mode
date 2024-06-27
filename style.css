@@ -1,0 +1,215 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+}
+
+header {
+  padding: 12px;
+  background-color: #fff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 250px;
+}
+
+.header-logo {
+  display: flex;
+  margin-left: 20px;
+}
+
+.header-logo img {
+  width: 200px; /* ajustar tamanho da imagem */
+}
+
+/* Estilos para a barra de pesquisa */
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box input[type="text"] {
+  width: 400px;
+  height: 45px;
+  padding: 10px;
+  border: 3px solid #ccc;
+  /* border-radius: 8px; */
+  font-size: 16px;
+  background-color: #f1f1f1;
+  color: #333;
+  box-sizing: border-box;
+}
+
+.search-box input[type="text"]::placeholder {
+  color: #999;
+}
+
+.search-box input[type="text"]:focus {
+  border-color: #f58d0f;
+  outline: none;
+}
+
+/* Estilos para o ícone de lupa */
+.search-box ion-icon {
+  display: flex;
+  color: #999;
+  width: 25px;
+  height: 25px;
+}
+
+.icon-wrap {
+  display: flex;
+  margin-right: 5px;
+}
+
+:root {
+  --laranja-principal: #fe7f08;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cards-container,
+.container-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.container-content {
+  gap: 60px;
+  text-align: center;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  background: var(--laranja-principal);
+  color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.text-card h4 {
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+
+.text-card p {
+  line-height: 1.4;
+  font-size: 16px;
+  padding-bottom: 32px;
+}
+
+#continue-button {
+  padding: 12px 16px;
+  border: 2px #000 solid;
+  background: #fff;
+}
+
+#continue-button:hover,
+#continue-button:hover a {
+  cursor: pointer;
+  background: #1f1e1e;
+  color: #fff;
+}
+
+#continue-button a {
+  color: #000;
+}
+/* para poder mudar a imagem do meio */
+.welcome-container img {
+  height: 750px;
+  width: 100%;
+}
+
+h1 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* Define a cor do texto */
+  text-align: center;
+}
+
+.header-titler p {
+  position: absolute;
+  top: 37%;
+  left: 35%;
+  transform: translate(-50% -50%);
+  color: white; /* Define a Cor do Texto */
+  text-align: center;
+}
+
+.article-section-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background-color: #e5e7eb;
+}
+
+.article-row-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+.article-col-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.article-col-section li {
+  margin-bottom: 5px;
+}
+
+.article-title {
+  margin-bottom: 10px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.image-container {
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.image-container div img {
+  display: flex;
+  width: 1200px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit; /* Herda a cor do texto do elemento pai */
+  text-decoration: none; /* Remove o sublinhado */
+  outline: none; /* Remove o contorno ao clicar */
+}
+
+/* Estilo padrão para modo claro */
+body {
+  background-color: white;
+  color: black;
+}
