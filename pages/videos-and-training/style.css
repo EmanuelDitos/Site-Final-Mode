@@ -94,5 +94,5 @@ video {
 .single-video {
   height: 300px;
   width: 400px;
-  background: blue; /* after changing div to img remove this bg color.*/
+  /*background: white; /* after changing div to img remove this bg color.*/
 }
