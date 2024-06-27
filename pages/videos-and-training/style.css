@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+main {
+  padding: 6em 20em;
+}
+
+button {
+  padding: 16px;
+  white-space: nowrap;
+  border: none;
+  background: #ccc;
+  box-shadow: 0 6px 5px #bbb;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+button:hover {
+  transform: scale(0.98);
+  box-shadow: 0 3px 5px #bbb;
+  cursor: pointer;
+}
+
+.title {
+  padding: 32px;
+  background: #040404;
+}
+
+.title h1 {
+  color: #fff;
+}
+
+.card-content {
+  padding: 2em;
+}
+
+.single-card {
+  display: flex;
+  align-items: center;
+  background: #ddd;
+  padding: 2em;
+  gap: 16px;
+  margin-bottom: 22px;
+  border-radius: 4px;
+}
+
+.single-card h2 {
+  font-weight: 400;
+  padding-bottom: 22px;
+  font-size: 32px;
+}
+
+.single-card p {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+video {
+  padding: 2em;
+  margin-top: 1em;
+  border-radius: 1px #eee solid;
+}
+
+.popular-video {
+  padding: 2em;
+}
+
+.popular-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.all-videos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.single-video {
+  height: 300px;
+  width: 400px;
+  background: blue; /* after changing div to img remove this bg color.*/
+}
