@@ -17,7 +17,7 @@
 
 #### Créditos:
 
-> O site foi desenvolvido por:\
-> Emanuel Ditos: https://github.com/EmanuelDitos\
-> Gabriel Berlucci: https://github.com/gabrielberluccidev\
+> O site foi desenvolvido por:  
+> Emanuel Ditos: https://github.com/EmanuelDitos  
+> Gabriel Berlucci: https://github.com/gabrielberluccidev  
 > Lucas: https://github.com/Lucashdml
