@@ -100,7 +100,7 @@ ion-icon {
   font-size: 30px;
 }
 
-button {
+.single-card a {
   padding: 16px;
   white-space: nowrap;
   border: none;
@@ -108,7 +108,7 @@ button {
   box-shadow: 0 6px 5px #bbb;
 }
 
-button:hover {
+.single-card a:hover {
   transform: scale(0.98);
   box-shadow: 0 3px 5px #bbb;
   cursor: pointer;
