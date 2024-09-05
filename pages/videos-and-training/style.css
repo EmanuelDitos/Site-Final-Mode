@@ -160,8 +160,9 @@ video {
 }
 
 .single-video {
-  height: 300px;
-  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
   /*background: white; /* after changing div to img remove this bg color.*/
 }
 
