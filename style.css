@@ -181,10 +181,6 @@ footer {
   width: 1200px;
 }
 
-ul {
-  list-style: none;
-}
-
 a {
   color: inherit; /* Herda a cor do texto do elemento pai */
   text-decoration: none; /* Remove o sublinhado */
@@ -195,4 +191,8 @@ a {
 body {
   background-color: var(--white);
   color: black;
+}
+
+ul {
+  list-style-type: none;
 }
