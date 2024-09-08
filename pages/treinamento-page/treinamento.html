@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Treinamento | Ajuda Set Sistemas</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/x-icon" href="../../icons/icon.png" />
+  </head>
+  <body>
+    <header>
+      <div class="header-logo">
+        <a href="../../index.html">
+          <img class="header-img" src="../../images/logo.png" />
+        </a>
+      </div>
+      <div class="search-box">
+        <div class="icon-wrap">
+          <ion-icon name="search-outline"></ion-icon>
+        </div>
+        <input
+          list="search_list"
+          type="text"
+          id="search_input"
+          placeholder="Digite sua dúvida Aqui!"
+        />
+        <datalist id="search_list">
+          <option value="Manual"></option>
+          <option value="Suporte"></option>
+          <option value="Treinamento"></option>
+        </datalist>
+      </div>
+    </header>
+    <div class="title">
+      <h1>Treinamento</h1>
+    </div>
+    <main>
+      <div class="card-content">
+        <div class="single-card">
+          <div class="card-text">
+            <h2>Apresentação da Solução</h2>
+            <p>
+              Veja nesse vídeo uma apresentação de todas as soluções e
+              funcionalidades da Set Sistemas, descubra nossos planos e preços e
+              conheça o modelo de suporte e implantação.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- para mudar os videos ir em pra colocar um video tem que usa a conta no https://cloudinary.com e subir o video novo  -->
+      <div class="centralizar">
+        <iframe
+          src="https://player.cloudinary.com/embed/?public_id=Cadastrar_Produtos_xehrtb&cloud_name=djibd8ogb&player[showJumpControls]=true&player[pictureInPictureToggle]=true&player[showLogo]=false&player[fluid]=false&player[width]=1200&player[height]=675&source[chapters]=true"
+          width="100%"
+          height="auto"
+          allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+          false
+          allowfullscreen
+          frameborder="0"
+        ></iframe>
+      </div>
+
+      <div class="popular-video">
+        <div class="popular-title">
+          <h4>Vídeos populares</h4>
+        </div>
+
+        <!-- TODO: Change all divs "single-video" to a real img-->
+        <div class="all-videos">
+          <div class="single-video">
+            <div class="video">
+              <a
+                rel="noopener"
+                target="_blank"
+                href="https://www.youtube.com/watch?v=sN_nhv02nLY"
+              >
+                <img
+                  src="../..//images/Thumb-Teste-test.png"
+                  alt="Descrição da imagem"
+                  width="100%"
+                  height="auto;"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="single-video">
+            <div class="video">
+              <a
+                rel="noopener"
+                target="_blank"
+                href="https://www.youtube.com/watch?v=sN_nhv02nLY"
+              >
+                <img
+                  src="../..//images/Thumb-Teste-test.png"
+                  alt="Descrição da imagem"
+                  width="100%"
+                  height="auto;"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="single-video">
+            <div class="video">
+              <a
+                rel="noopener"
+                target="_blank"
+                href="https://www.youtube.com/watch?v=CSZi60Yg044"
+              >
+                <img
+                  src="../..//images/Thumb-Teste-test.png"
+                  alt="Descrição da imagem"
+                  width="100%"
+                  height="auto;"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-content">
+        <div class="single-card">
+          <div class="card-text">
+            <h2>Veja mais vídeos</h2>
+            <p>
+              Clique no botão a seguir e acesso nosso canal no Youtube, com
+              dezenas de vídeos treinamentos passo a passo, aprenda como
+              utilizar as soluções da Set Sistemas para melhorar sua gestão e
+              aumentar suas vendas.
+            </p>
+          </div>
+
+          <div class="card-button">
+            <button>
+              <ion-icon name="logo-youtube"></ion-icon>
+              <a
+                target="_blank"
+                norel
+                href="https://www.youtube.com/@SetSistemasOfc"
+                >Assistir outros vídeos</a
+              >
+            </button>
+          </div>
+        </div>
+
+        <div class="single-card">
+          <div class="card-text">
+            <h2>Treinamento</h2>
+            <p>
+              Para marcar um treinamento de algum sistema da Set, entre em
+              contato com a nossa equipe pelo nosso WhatsApp.
+            </p>
+          </div>
+
+          <div class="card-button">
+            <button>
+              <ion-icon name="bookmark-outline"></ion-icon>
+              <a
+                href="https://api.whatsapp.com/send/?phone=44998695005&text=Gostaria+de+agendar+um+treinamento&type=phone_number&app_absent=0"
+                >Treinamento ao vivo</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="../../scripts/searchBarPages.js"></script>
+  </body>
+</html>

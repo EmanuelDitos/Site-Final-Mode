@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #fff;
+  --bg-title: #040404;
+  --bg-card: #ccc;
+  --set-orange: #f58d0f;
+  --box-shadow: #bbb;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.title {
+  padding: 32px;
+  background: var(--bg-title);
+}
+
+.title h1 {
+  color: var(--white);
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+main {
+  padding: 6em 20em;
+}
+
+button {
+  padding: 16px;
+  white-space: nowrap;
+  border: none;
+  background: var(--bg-card);
+  box-shadow: 0 6px 5px var(--box-shadow);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+button:hover {
+  transform: scale(0.98);
+  box-shadow: 0 3px 5px var(--box-shadow);
+  cursor: pointer;
+}
+
+header {
+  padding: 12px;
+  background-color: var(--white);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  gap: 250px;
+}
+
+.header-logo {
+  display: flex;
+  margin-left: 20px;
+}
+
+.header-logo img {
+  width: 200px; /* ajustar tamanho da imagem */
+}
+
+/* Estilos para a barra de pesquisa */
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box input[type="text"] {
+  width: 400px;
+  height: 45px;
+  padding: 10px;
+  border: 3px solid #ccc;
+  /* border-radius: 8px; */
+  font-size: 16px;
+  background-color: #f1f1f1;
+  color: #333;
+  box-sizing: border-box;
+}
+
+.search-box input[type="text"]::placeholder {
+  color: #999;
+}
+
+.search-box input[type="text"]:focus {
+  border-color: #f58d0f;
+  outline: none;
+}
+
+/* Estilos para o ícone de lupa */
+.search-box ion-icon {
+  display: flex;
+  color: #999;
+  width: 25px;
+  height: 25px;
+}
+
+.icon-wrap {
+  display: flex;
+  margin-right: 5px;
+}
+
+.card-content {
+  padding: 1em;
+}
+
+.single-card {
+  display: flex;
+  align-items: center;
+  background: #ddd;
+  padding: 2em;
+  gap: 16px;
+  margin-bottom: 22px;
+  border-radius: 4px;
+  justify-content: space-around;
+}
+
+.single-card h2 {
+  font-weight: 400;
+  padding-bottom: 22px;
+  font-size: 32px;
+}
+
+.single-card p {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+video {
+  padding: 2em;
+  margin-top: 1em;
+  border-radius: 1px #eee solid;
+}
+
+.popular-video {
+  padding: 2em;
+}
+
+.popular-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.all-videos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.single-video {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  /*background: white; /* after changing div to img remove this bg color.*/
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+.centralizar {
+  /* serve pra centralizar o video */
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+.centralizar iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
