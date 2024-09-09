@@ -36,6 +36,7 @@ header {
 }
 
 .search-box input[type="text"] {
+  /* Alterar tamanho do Search-bar */
   width: 400px;
   height: 35px;
   padding: 10px;
@@ -132,6 +133,7 @@ a {
 .welcome-container img {
   height: 750px;
   width: 100%;
+  border-radius: 10px;
 }
 .article-section-container {
   display: flex;
@@ -179,6 +181,7 @@ footer {
 .image-container div img {
   display: flex;
   width: 1200px;
+  border-radius: 10px;
 }
 
 a {
