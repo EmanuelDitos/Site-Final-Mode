@@ -191,12 +191,6 @@ a {
   outline: none; /* Remove o contorno ao clicar */
 }
 
-/* Estilo padrão para modo claro */
-body {
-  background-color: var(--white);
-  color: black;
-}
-
 ul {
   list-style-type: none;
 }
