@@ -176,10 +176,10 @@ footer {
   padding: 15px;
 }
 .centralizar {
-  /* serve pra centralizar o video */
+  /* serve pra centralizar o video  o padding-bottom serve pra corrigir a parte preta que sobra*/
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%;
+  padding-bottom: 53.15%;
   border-radius: 10px;
 }
 .centralizar iframe {
