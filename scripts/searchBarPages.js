@@ -6,7 +6,7 @@ searchInput.addEventListener("input", (e) => {
 
   for (let i = 0; i < tab.length; i++) {
     if (tab.includes(suggestions[i])) {
-      window.open(`../${suggestions[i]}-page/${suggestions[i]}.html`);
+      window.open(`../${suggestions[i]}-page/${suggestions[i]}.html`, "_self");
     }
   }
 });
