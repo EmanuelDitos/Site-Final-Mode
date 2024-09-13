@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --white: #fff;
+  --bg-title: #040404;
+  --bg-card: #ccc;
+  --set-orange: #f58d0f;
+  --box-shadow: #bbb;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.title {
+  padding: 2em 25em;
+  background: var(--bg-title);
+}
+
+.title h1 {
+  color: var(--white);
+  line-height: 1.5em;
+  margin: 0;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+header {
+  padding: 12px;
+  background-color: var(--white);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  gap: 250px;
+}
+
+.header-logo {
+  display: flex;
+  margin-left: 20px;
+}
+
+.header-logo img {
+  width: 200px; /* ajustar tamanho da imagem */
+}
+
+/* Estilos para a barra de pesquisa */
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box input[type="text"] {
+  width: 400px;
+  height: 35px;
+  padding: 10px;
+  border: 3px solid #ccc;
+  /* border-radius: 8px; */
+  font-size: 16px;
+  background-color: #f1f1f1;
+  color: #333;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.search-box input[type="text"]::placeholder {
+  color: #999;
+}
+
+.search-box input[type="text"]:focus {
+  border-color: #f58d0f;
+  outline: none;
+}
+
+/* Estilos para o ícone de lupa */
+.search-box ion-icon {
+  display: flex;
+  color: #999;
+  width: 20px;
+  height: 20px;
+}
+.icon-wrap {
+  display: flex;
+  margin-right: 5px;
+}
+
+main {
+  padding: 6em 20em;
+}
+
+.article-content p {
+  padding-top: 20px;
+  max-width: 99%;
+  line-height: 1.4;
+}
+
+.article-content img {
+  padding-top: 20px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background-color: #f7f7f7;
+}
