@@ -101,7 +101,11 @@ main {
 }
 
 .article-content img {
+  /* Serve para alterar os tamanhos da imagem */
   padding-top: 20px;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
 }
 
 footer {
