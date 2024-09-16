@@ -95,7 +95,7 @@ main {
 }
 
 .article-content p {
-  padding-top: 20px;
+  padding-bottom: 20px;
   max-width: 99%;
   line-height: 1.4;
 }
