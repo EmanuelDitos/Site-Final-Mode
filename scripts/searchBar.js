@@ -4,7 +4,7 @@ let suggestions = [
   "suporte",
   "treinamento",
   "como fazer uma venda no frente de caixa",
-  "introducao ao cadastro de cliente",
+  "introdução ao cadastro de cliente",
 ];
 
 searchInput.addEventListener("input", (e) => {
